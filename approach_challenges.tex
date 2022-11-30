@@ -1,0 +1,14 @@
+
+\section{Approach}
+
+To simplify our control system, we assume that the ecosystem consists of a continuous 2-dimensional bounded space with individual predator and prey expressed as points placed within the space. Initially, the points should be distributed uniformly. The points would update their positions based on their status as predator or prey and the movements assigned to them.
+
+The predator's movements only consist of chasing the prey, and likewise the prey's movements only consist of evading the predators. Reproduction should merely be a duplicating both species and placing them uniformly on the 2-dimensional space.
+
+A Lotka-Volterra model will be used to track the populations of both species.  Lotka-Volterra model is a set of differential equations that models the dynamics of population between multiple species, most notably a predator and a prey species.
+Lotka-Volterra models, if given the reproduction rate and the death rate of the species, can automatically map the trajectories of both populations on a phase plane, show the stability of their dynamics.
+By taking Lotka-Volterra models and fitting them to sets of data regarding populations of specific predator and prey species in an ecosystem, it is possible to predict the trajectories of both species' populations over time.
+
+\section{Challenges}
+
+A challenge that is present is the Lotka-Volterra model is in differentials, where the data is continuous. To combat this, the assumption is that the spatial model can be fit on the Lotka=Volterra model using Heun's method.
