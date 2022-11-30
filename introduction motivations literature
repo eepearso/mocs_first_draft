@@ -1,0 +1,15 @@
+
+\section{Introduction}
+
+The simulations of predator and prey species in an ecosystem can help understand what impacts population growth and decline of different species can impact the other communities as a whole. These observations can further educate choices on how interventions on population controls can hinder or accelerate the stabilization of ecosystem communities.\\
+Benefits of applying population data to the Lotka Volterra model include being able to look at the stability of different species populations in different conditions of community numbers. The information that this shows is invaluable, as it provides more information to choose paths to mitigate population extinction or population overgrowth. \\
+
+
+\section{Motivations}
+The benefit of finding stability in populations largely affects the ecosystem as a whole as well. For example, in the Yellowstone Wolf Project \cite{national_parks_service}, when reintroducing gray wolves who had previously been driven to extinction by humans to the park, caused numerous unintended consequences. However, they were able to stabilize the deer and elk populations, which in turn reduced erosion on riverbanks as the wolves drove the elks off the grasslands and reduced the amount of grazing from happening. This allowed populations of other species, such as beavers, to stabilize in the parks. The intense reduction of the predator population due to human intervention caused other negative consequences on the environment as a whole.
+Although our model is only looking at the predator/prey population numbers instead of other ecological benefits, the main focus of this model would be looking at impacts similar to the impacts the wolves created on the elk and deer populations.
+
+\section{Preliminary Research}
+
+Singh's work \cite{10.1371/journal.pone.0255880} looks at the predator-prey relationship and their population densities using LV models with randomized prey reproduction rates. The LV model, whose predator reproduction rate is dependent on the prey density, showed that prey dependent rates caused fluctuations in populations while predator dependent rates increased stochasticity.
+This work relates to our main question regarding fitting reproduction rates in the LV model to try to ensure having a point of stability that does not lead to extinction for both species. The effects of population densities in the datasets for species have a large impact on the stability of the model, and adding in real-world data on reproduction and finding stability would largely depend on the population data densities.
